@@ -1,0 +1,83 @@
+﻿/*
+	TurboTec IT Development Team 
+
+	a. Colaborators: 
+		1. Stevie De La Cruz
+		2. Skeept Espinoza
+		3. Mildrey Hervert
+		4. Hector Guerrero
+		5. Martin Rojas
+		6. Andres Silva
+
+	b. Last Update: Friday, March 7, 2014
+
+	c. Notes:
+		1. Hover colors result of the adding #111 to the base color.
+		2. This is imported to the layout.less file, the only variable
+		   values that you'll probably need to change are the ones that
+		   aren't between a "pool" tag.
+*/
+/* <Colour Pool> */
+/* Font Pool */
+/* Theme Colors */
+/* Theme Fonts */
+/* Button Colors */
+/* General */
+textarea {
+  resize: none;
+}
+strong {
+  color: #9c9a9c;
+}
+i {
+  margin: 0 10px 0 0;
+}
+hr {
+  border-color: #d5d3d5;
+}
+/* Bootstrap Adjustments */
+.tooltip-inner {
+  max-width: 300px;
+  width: 300px;
+}
+.row {
+  padding: 5px 5px;
+}
+.popover {
+  font-family: open_sansregular !important;
+  max-width: 150%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fffeff;
+  border-radius: 4px;
+  border: 0;
+}
+/* Select2 Adjustments */
+.select2-container .select2-choice .select2-arrow {
+  background: none;
+  background-image: none;
+  border-left: 0;
+}
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
+.select2-results .select2-selection-limit {
+  background: 0;
+}
+/* Toastr Adjustments */
+.toast-title,
+.toast-message {
+  font-family: 'Segoe UI';
+}
+/* .Net Radio Button*/
+.radiolabel label {font-weight:normal;padding-right:1em;}
+/*# sourceMappingURL=adjustment.css.map */
+
+span label{
+    padding-left:10px;
+	font-weight:normal;
+}
+
+.cbTable label{
+    padding-left:10px;
+	font-weight:normal;
+}
+
