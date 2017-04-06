@@ -1,0 +1,233 @@
+﻿@import url('typography.css');
+/* NOTE: If you want to change ANY color of the theme, change them at the 
+   color.less file using or adding new @color-* variables */
+/*
+	TurboTec IT Development Team 
+
+	a. Colaborators: 
+		1. Stevie De La Cruz
+		2. Skeept Espinoza
+		3. Mildrey Hervert
+		4. Hector Guerrero
+		5. Martin Rojas
+		6. Andres Silva
+
+	b. Last Update: Friday, March 7, 2014
+
+	c. Notes:
+		1. Hover colors result of the adding #111 to the base color.
+		2. This is imported to the layout.less file, the only variable
+		   values that you'll probably need to change are the ones that
+		   aren't between a "pool" tag.
+*/
+/* <Colour Pool> */
+/* Font Pool */
+/* Theme Colors */
+/* Theme Fonts */
+/* Button Colors */
+/* Content Structure*/
+html,
+body,
+form {
+  font-family: open_sansregular !important;
+  width: 100%;
+  height: 100%;
+  background-color: #BABABA;
+}
+.form-title {
+  background-color: #222;
+  color: white;
+  margin: 0 0 40px 0;
+  border-radius: 2px 2px 0 0;
+  padding: 15px 25px 15px 25px;
+  border-bottom: 3px solid #fc0;
+}
+.light {
+  font-family: open_sanslight !important;
+  letter-spacing: 1px;
+}
+.bold {
+  font-family: open_sansbold;
+}
+.emphasis {
+  color: #817e81;
+}
+body {
+  background-color: #f3f2f3;
+  color: #393832;
+}
+.container {
+  padding: 15px 0 0 0;
+  height: auto;
+}
+
+.labelHidden{
+    display:none;
+    text-align:justify;
+    width: 500px;
+    word-wrap:break-word;
+}
+
+.content-page {
+  /*border-bottom: 2px @color-g3 solid;
+	border-right: 2px @color-g3 solid;*/
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fffeff;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content-page.inverse {
+  background-color: #222222;
+  color: #f3f2f3;
+}
+.footer {
+  text-align: center;
+}
+.section {
+  width: 100%;
+  padding: 5px 25px 15px 25px;
+  height: auto;
+}
+.section .title {
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.section .title span {
+  color: #393832;
+}
+.section .title hr {
+  margin: 5px 0 5px 0;
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.21);
+}
+.section .title i {
+  margin: 0 15px 0 0;
+  color: #393832;
+}
+#comments {
+  /*max-height: 300px;
+	overflow-y: auto;*/
+}
+#comments .comment .header {
+  padding: 5px 10px 5px 10px;
+}
+#comments .comment .header i {
+  margin: 0 10px 0 10px;
+}
+#comments .comment .header span {
+  display: block;
+}
+#comments .comment .header span.name {
+  font-size: 16px;
+}
+#comments .comment .header span.submit-date {
+  display: block;
+  font-size: 12px;
+  color: #8d8d8d;
+}
+#comments .comment .comment-content {
+  padding: 10px;
+  font-size: 12px;
+  text-align: justify;
+}
+#comments .comment hr {
+  margin: 10px 0 20px 0;
+  border: none;
+  border-top: 1px solid rgba(88, 88, 88, 0.2);
+}
+.header-bar {
+  margin: 0 0 20px 0;
+}
+.header-bar .bar {
+  width: 100%;
+}
+.header-bar .bar.bar-main {
+  background-color: #222222;
+  padding: 0 0 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.header-bar .bar.bar-main .title {
+  font: 28px Segoe UI Light;
+  margin: 5px 15px 5px 15px;
+  color: #f9f9f9;
+}
+.header-bar .bar.bar-cat {
+  background-color: #ffcc00;
+  height: 4px;
+}
+.danger {
+  background-color: #c0392b;
+}
+.success {
+  background-color: #27ae60;
+}
+.warning {
+  background-color: #ffcc00;
+}
+.ipg-bar {
+  height: 4px;
+  width: 100%;
+}
+a {
+  border: none;
+  outline: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+.Displaytable {
+  width: 600px;
+}
+.TextAlignCenter {
+  text-align: center;
+}
+/*# sourceMappingURL=layout.css.map */
+/* Defined the below elements style from page to here 
+    so that I can change the width during print. This is nasty but a workaround
+    I don't want to disturb the page in production since the same is used for printable version */
+#INI_NAME{
+    width:211px;
+}
+#INI_DEPT{
+    width:153px;
+}
+#INI_PHONE
+{
+    width:153px;
+}
+#INI_INVOLVED_PERSON
+{
+    width:211px;
+}
+#INI_INVOLVED_PERSON2
+{
+    width:211px;
+}
+#INI_INVOLVED_PERSON3
+{
+    width:211px;
+}
+#INI_INVOLVED_PERSON4
+{
+    width:211px;
+}
+#INI_PACKAGENUMBER{
+    width:160px;
+}
+#INI_PDNUMBER{
+     width:100px;
+}
+#INI_CUSTOMER{
+     width:153px;
+}
+#INI_SITE{
+    width:153px;
+}
+#INI_LOCATION{
+    width:153px;
+}
