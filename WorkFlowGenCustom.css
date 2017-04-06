@@ -1,0 +1,373 @@
+﻿body {
+font-family: Arial;
+background-color:#ddd;
+}
+
+
+.label1 {
+  font-size: 12px;
+  font-family:Arial;
+  
+  margin-top:10px;
+}
+.standardText{
+  font-size: 11px;
+  font-family:Arial;
+  vertical-align :top;
+}
+.standard
+{
+	font-size: 11px;
+	font-family:Arial;
+	vertical-align: bottom;
+}
+.rowClass {
+  font-size: 12px;
+  font-family:Arial;
+  background-color:#fff;
+}
+.rowClassAlt {
+  font-size: 12px;
+  font-family:Arial;
+  background-color: #f0f6ff;
+}
+.header {
+font-size: 16px;
+font-weight:bold;
+color:#777;
+ padding-top:16px;
+ padding-bottom:16px;
+}
+.colHead{
+font-size: 12px;
+font-weight:bold;
+color:#333;
+background-color:#ddd;
+
+}
+ .RequiredBorder {
+    border-style:solid !important;
+    border-color:#ff0000 !important;
+    border-width:1px 1px 1px 1px !important;
+    background-color:#ddd !important;
+    color:#000000 !important;
+}
+.allContent {
+	width: 990px;
+	margin: 10px auto auto auto;
+	background-color:White;
+	padding:10px;
+	left: 60px;
+	position: absolute;
+    top: 46px;
+}
+
+.data
+{
+	font-size: 11px;
+	border-style :none; 
+}
+
+.lefttop
+{
+	border-left : 1;
+	border-top :1;
+	
+}
+
+.thm_hdrHorzRule {
+	BACKGROUND-COLOR: #FFCC00; HEIGHT: 7px
+}
+
+
+
+.autocomplete_completionListElement
+{
+	margin : 0px!important ;
+	background-color : inherit ;
+	color : windowtext ;
+	border : buttonshadow ;
+	border-width : 1px ;
+	border-style : solid ;
+	cursor : 'default' ;
+	overflow : auto ;
+	height : 200px ;
+	font-family : Tahoma ;
+	font-size : small ;
+	text-align : left ;
+	list-style-type : none ;
+	}
+/* AutoComplete highlighted item */
+.autocomplete_highlightedListItem
+   {
+	background-color : #ffff99 ;
+	color : black ;
+	padding : 1px ;
+	}
+
+	/* AutoComplete item */
+.autocomplete_listItem
+	{
+	background-color : white ;
+	color : windowtext ;
+	padding : 1px ;
+   }
+   
+   
+   
+ .loading
+{
+ background-image: url('ajax-loader.gif');
+ background-repeat: no-repeat;
+}
+
+.Isrequired
+{
+	background-color: Yellow;
+}
+
+.Isdisabled
+{
+	background-color: Green;
+}
+
+.Istransparent
+{
+	background-color: transparent;
+}
+
+/*
+label { width: 10em; float: left; }
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+p { clear: both; }
+.submit { margin-left: 12em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
+*/
+.label
+{
+	border: none;
+}
+
+
+.helpText{
+  font-size: 13px;
+  font-family:Arial;
+  vertical-align :top;
+}
+
+/*Floating Div */
+
+#commentWrapper { 
+  left: 450px;
+  position: relative;
+  margin-left: 35px;
+  width: 300px;
+}
+
+#comment {
+  position: absolute;
+  top:-23px;
+  /* just used to show how to include the margin in the effect */
+  margin-top: 20px;
+  /*border-top: 1px solid purple;*/
+  padding-top: 19px;
+  padding-left : 10px;
+  padding-right : 10px;
+  left : 350px;
+  width : 400px;
+}
+
+#comment.fixed {
+  position: fixed;
+  top: 0;
+}
+/* Floating Notes*/
+#NoteCommentWrapper { 
+  left: 450px;
+  position: relative;
+  margin-left: 35px;
+  width: 300px;
+}
+
+#NoteComment {
+  position: absolute;
+  top:-23px;
+  /* just used to show how to include the margin in the effect */
+  margin-top: 20px;
+  /*border-top: 1px solid purple;*/
+  padding-top: 19px;
+  padding-left : 10px;
+  padding-right : 10px;
+  left : 350px;
+  width : 400px;
+}
+
+#NoteComment.fixed {
+  position: fixed;
+  top: 0;
+}
+/*End of Floating Div*/
+
+/*Floating Help Div */
+
+#HelpDivWrapper { 
+  left: 450px;
+  position: relative;
+  margin-left: 35px;
+  width: 200px;
+}
+
+#HelpDiv {
+  position: absolute;
+  top:-23px;
+  /* just used to show how to include the margin in the effect */
+  margin-top: 20px;
+  /*border-top: 1px solid purple;*/
+  padding-top: 19px;
+  padding-left : 10px;
+  padding-right : 10px;
+  left : 0px;
+  width : 203px;
+}
+
+#HelpDiv.Hfixed {
+  position: fixed;
+  top: 0;
+}
+
+/*Floating Note Div */
+
+#NotesHelpWrapper { 
+  left: 450px;
+  position: relative;
+  margin-left: 35px;
+  width: 200px;
+}
+
+#NotesHelp {
+  position: absolute;
+  top:-23px;
+  /* just used to show how to include the margin in the effect */
+  margin-top: 100px;
+  /*border-top: 1px solid purple;*/
+  padding-top: 19px;
+  padding-left : 10px;
+  padding-right : 10px;
+  left : 0px;
+  width : 203px;
+}
+
+#NotesHelp.Hfixed {
+  position: fixed;
+  top: 0;
+}
+/*End of Floating Div*/
+
+/*this is the popup menu css*/
+
+
+ select, textarea /*, table */
+{
+	font-size: 11px;
+	font-family:Arial;
+	margin-left: 0px;
+    width: 100%;
+}
+
+
+.SingleBorder
+{
+	border-style:solid;
+	border-width:1px;
+}
+
+.DoubleBorder
+{
+	border-style:solid;
+	border-width:medium;
+}
+
+
+ .popUpArrowPanel {
+	display: none;   
+}
+
+.popUpArrowBoxTable{
+	width: 380px;
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.popUpArrowBoxTdTopLeft {
+	width: 75px;
+	height: 28px;
+	background-image: url('../Images/BoxTopLeft.png');
+	background-repeat: no-repeat;   
+}
+
+.popUpArrowBoxTdTopSide {
+	background-image: url('../Images/BoxSideTop.png');
+	background-repeat: repeat-x;
+	width: 160px;   
+}
+
+.popUpArrowBoxTdTopRight {
+	width: 28px;
+	height: 28px;
+	background-image: url('../Images/BoxTopRight.png');
+	background-repeat: no-repeat;   
+}
+
+.popUpArrowBoxTdTopArrow {
+	vertical-align: top;
+	background-image: url('../Images/BoxTopLeftArrow.png');
+	background-repeat: no-repeat;
+	position: relative;
+	left: 75px;
+	top: -28px;
+	height: 94px;
+	width:75px;
+}
+
+.popUpArrowBoxTdSideLeft {
+	vertical-align: top;
+	width: 75px;
+	height: 120px;
+	background-image: url('../Images/BoxSideLeft.png');
+	background-repeat: repeat-y;   
+}
+
+.popUpArrowBoxTdContent {
+	vertical-align: top;
+	background: url('../Images/SpacerWhite.gif');
+}
+
+.popUpArrowBoxTdSideRight {
+	width: 28px;
+	height: 120px;
+	background-image: url('../Images/BoxSideRight.png');
+	background-repeat: repeat-y;
+}
+
+.popUpArrowBoxTdBottomLeft {
+	width: 75px;
+	height: 28px;
+	background-image: url('../Images/BoxBottomLeft.png');
+	background-repeat: no-repeat;
+}
+
+.popUpArrowBoxTdBottomSide {
+	background-image: url('../Images/BoxSideBottom.png');
+	background-repeat: repeat-x;
+	width: 160px;   
+}
+
+.popUpArrowBoxTdBottomRight {
+	width: 28px;
+	height: 28px;
+	background-image: url('../Images/BoxBottomRight.png');
+	background-repeat: no-repeat;   
+}
+
+/*End of Popup box*/
